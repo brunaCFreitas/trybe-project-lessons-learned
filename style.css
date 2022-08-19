@@ -38,3 +38,24 @@ li a {
 main {
     padding: 20px 50px;
 }
+
+#apresentacao {
+    text-align: center;
+    margin: 20px;
+}
+
+#minha_foto {
+    padding: 50px;
+}
+
+#licoes {
+    padding: 30px;
+    text-align: center;
+}
+
+.lista_licoes {
+    display: inline-block;
+    margin: auto;
+    padding: 30px;
+    text-align: left;
+}
