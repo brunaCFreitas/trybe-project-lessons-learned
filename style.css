@@ -59,3 +59,27 @@ main {
     padding: 30px;
     text-align: left;
 }
+
+#aprendizado {
+    display: inline-block;
+    width: 45%;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 20px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+#sobre_mim {
+    display: inline-block;
+    width: 45%;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 20px;
+    margin-left: 28px;
+    vertical-align: 400%;
+
+}
+}
