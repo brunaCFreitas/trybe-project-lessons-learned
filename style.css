@@ -6,7 +6,9 @@
   body {
     background-color: rgb(253, 251, 251);
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
     font-size: 1.3em;
+
   }
 
   #cabecalho {
@@ -64,6 +66,10 @@
     text-align: left;
   }
 
+  #textos {
+    padding-bottom: 50px;
+  }
+
   .text {
     display: inline-block;
     width: 45%;
@@ -72,21 +78,38 @@
     padding: 20px;  
   }
 
-  .lado-direito {
-    margin-left: 28px;
-    vertical-align: 790%;
+  .lado-esquerdo {
+    float: left;
+    margin-bottom: 50px;
   }
 
-table, caption, td, th {
+  .lado-direito {
+    float: right;
+    vertical-align: 620%;
+    margin-bottom: 200px;
+  }
+
+  #table {
+    clear: both;
+  }
+
+  table, caption, td, th {
+    width: auto;
     margin: auto;
     border: 1px solid black;
     text-align: left;
     padding: 5px;
     background-color: aliceblue;
-}
+  }
 
-caption {
+  caption {
     text-align: center;
     background-color: black;
     color: aliceblue;
-}
+  }
+
+  footer {
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+  }
